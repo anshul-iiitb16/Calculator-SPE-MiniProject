@@ -1,4 +1,3 @@
-import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import org.junit.Assert;
 import org.junit.Before;
@@ -16,13 +15,13 @@ public class Calculator_Test
     public void testAddition(){
         double observed = c.Add(12.9, 12.9);
         double expected = 25.8;
-        assertEquals(observed, expected, 1e-10);
+        Assert.assertEquals(observed, expected, 1e-10);
     }
 
     @Test
     public void testMultiplication(){
         double observed = c.Add(12.9, 12.9);
         double expected = 166.41;
-        assertEquals(observed, expected, 1e-10);
+        Assert.assertEquals(observed, expected, 1e-10);
     }
 }
