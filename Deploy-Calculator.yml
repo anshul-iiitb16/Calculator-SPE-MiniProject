@@ -1,0 +1,16 @@
+---
+- name: Pull Docker Image of Calculator
+  hosts: all
+  
+  tasks:
+
+    - name: Start Docker Service
+      service:
+        name: docker
+        state: started
+
+    - name: Pull Image
+      shell: docker pull anshul1601/calculator:latest
+
+    - name: Run the container
+      shell: docker run -it -d --name Calcontainer anshul1601/calculator /bin/bash
