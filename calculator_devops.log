@@ -1,48 +1,16 @@
-28/Oct/2023:20:24:19 231 [Calculator.java] [INFO] Calculator Starting SquareRoot Operation
-28/Oct/2023:20:24:19 234 [Calculator.java] [INFO] Calculator Ending SquareRoot Operation
-28/Oct/2023:20:24:19 235 [Calculator.java] [INFO] Calculator Starting SquareRoot Operation
-28/Oct/2023:20:24:19 235 [Calculator.java] [INFO] Calculator Ending SquareRoot Operation
-28/Oct/2023:20:24:19 236 [Calculator.java] [INFO] Calculator Starting SquareRoot Operation
-28/Oct/2023:20:24:19 236 [Calculator.java] [WARN] Calculator Invalid Input
-28/Oct/2023:20:24:19 236 [Calculator.java] [INFO] Calculator Starting Multiply Operation
-28/Oct/2023:20:24:19 236 [Calculator.java] [INFO] Calculator Ending Multiply Operation
-28/Oct/2023:20:24:19 237 [Calculator.java] [INFO] Calculator Starting Add Operation
-28/Oct/2023:20:24:19 237 [Calculator.java] [INFO] Calculator Ending Add Operation
-28/Oct/2023:20:24:19 238 [Calculator.java] [INFO] Calculator Starting Factorial Operation
-28/Oct/2023:20:24:19 238 [Calculator.java] [INFO] Calculator Ending Factorial Operation
-28/Oct/2023:20:24:19 238 [Calculator.java] [INFO] Calculator Starting Factorial Operation
-28/Oct/2023:20:24:19 238 [Calculator.java] [WARN] Calculator Invalid Input
-28/Oct/2023:20:24:19 239 [Calculator.java] [INFO] Calculator Starting Factorial Operation
-28/Oct/2023:20:24:19 239 [Calculator.java] [INFO] Calculator Ending Factorial Operation
-28/Oct/2023:21:03:53 970 [Calculator.java] [INFO] Calculator Starting SquareRoot Operation
-28/Oct/2023:21:03:53 975 [Calculator.java] [INFO] Calculator Ending SquareRoot Operation
-28/Oct/2023:21:03:53 976 [Calculator.java] [INFO] Calculator Starting SquareRoot Operation
-28/Oct/2023:21:03:53 976 [Calculator.java] [INFO] Calculator Ending SquareRoot Operation
-28/Oct/2023:21:03:53 977 [Calculator.java] [INFO] Calculator Starting SquareRoot Operation
-28/Oct/2023:21:03:53 977 [Calculator.java] [WARN] Calculator Invalid Input
-28/Oct/2023:21:03:53 977 [Calculator.java] [INFO] Calculator Starting Multiply Operation
-28/Oct/2023:21:03:53 978 [Calculator.java] [INFO] Calculator Ending Multiply Operation
-28/Oct/2023:21:03:53 978 [Calculator.java] [INFO] Calculator Starting Add Operation
-28/Oct/2023:21:03:53 978 [Calculator.java] [INFO] Calculator Ending Add Operation
-28/Oct/2023:21:03:53 979 [Calculator.java] [INFO] Calculator Starting Factorial Operation
-28/Oct/2023:21:03:53 979 [Calculator.java] [INFO] Calculator Ending Factorial Operation
-28/Oct/2023:21:03:53 980 [Calculator.java] [INFO] Calculator Starting Factorial Operation
-28/Oct/2023:21:03:53 980 [Calculator.java] [WARN] Calculator Invalid Input
-28/Oct/2023:21:03:53 980 [Calculator.java] [INFO] Calculator Starting Factorial Operation
-28/Oct/2023:21:03:53 980 [Calculator.java] [INFO] Calculator Ending Factorial Operation
-28/Oct/2023:21:09:56 859 [Calculator.java] [INFO] org.example.Calculator Starting SquareRoot Operation
-28/Oct/2023:21:09:56 863 [Calculator.java] [INFO] org.example.Calculator Ending SquareRoot Operation
-28/Oct/2023:21:09:56 864 [Calculator.java] [INFO] org.example.Calculator Starting SquareRoot Operation
-28/Oct/2023:21:09:56 864 [Calculator.java] [INFO] org.example.Calculator Ending SquareRoot Operation
-28/Oct/2023:21:09:56 864 [Calculator.java] [INFO] org.example.Calculator Starting SquareRoot Operation
-28/Oct/2023:21:09:56 865 [Calculator.java] [WARN] org.example.Calculator Invalid Input
-28/Oct/2023:21:09:56 865 [Calculator.java] [INFO] org.example.Calculator Starting Multiply Operation
-28/Oct/2023:21:09:56 865 [Calculator.java] [INFO] org.example.Calculator Ending Multiply Operation
-28/Oct/2023:21:09:56 865 [Calculator.java] [INFO] org.example.Calculator Starting Add Operation
-28/Oct/2023:21:09:56 866 [Calculator.java] [INFO] org.example.Calculator Ending Add Operation
-28/Oct/2023:21:09:56 866 [Calculator.java] [INFO] org.example.Calculator Starting Factorial Operation
-28/Oct/2023:21:09:56 866 [Calculator.java] [INFO] org.example.Calculator Ending Factorial Operation
-28/Oct/2023:21:09:56 866 [Calculator.java] [INFO] org.example.Calculator Starting Factorial Operation
-28/Oct/2023:21:09:56 867 [Calculator.java] [WARN] org.example.Calculator Invalid Input
-28/Oct/2023:21:09:56 867 [Calculator.java] [INFO] org.example.Calculator Starting Factorial Operation
-28/Oct/2023:21:09:56 867 [Calculator.java] [INFO] org.example.Calculator Ending Factorial Operation
+28/Oct/2023:23:02:20 453 [Calculator.java] [INFO] Calculator Starting SquareRoot Operation
+28/Oct/2023:23:02:20 456 [Calculator.java] [INFO] Calculator Ending SquareRoot Operation
+28/Oct/2023:23:02:20 457 [Calculator.java] [INFO] Calculator Starting SquareRoot Operation
+28/Oct/2023:23:02:20 457 [Calculator.java] [INFO] Calculator Ending SquareRoot Operation
+28/Oct/2023:23:02:20 457 [Calculator.java] [INFO] Calculator Starting SquareRoot Operation
+28/Oct/2023:23:02:20 458 [Calculator.java] [WARN] Calculator Invalid Input
+28/Oct/2023:23:02:20 458 [Calculator.java] [INFO] Calculator Starting Multiply Operation
+28/Oct/2023:23:02:20 458 [Calculator.java] [INFO] Calculator Ending Multiply Operation
+28/Oct/2023:23:02:20 459 [Calculator.java] [INFO] Calculator Starting Add Operation
+28/Oct/2023:23:02:20 459 [Calculator.java] [INFO] Calculator Ending Add Operation
+28/Oct/2023:23:02:20 460 [Calculator.java] [INFO] Calculator Starting Factorial Operation
+28/Oct/2023:23:02:20 460 [Calculator.java] [INFO] Calculator Ending Factorial Operation
+28/Oct/2023:23:02:20 460 [Calculator.java] [INFO] Calculator Starting Factorial Operation
+28/Oct/2023:23:02:20 461 [Calculator.java] [WARN] Calculator Invalid Input
+28/Oct/2023:23:02:20 461 [Calculator.java] [INFO] Calculator Starting Factorial Operation
+28/Oct/2023:23:02:20 461 [Calculator.java] [INFO] Calculator Ending Factorial Operation

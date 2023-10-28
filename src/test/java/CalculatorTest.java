@@ -1,6 +1,5 @@
 import org.junit.Test;
 import org.junit.Assert;
-import org.example.Calculator;
 
 public class CalculatorTest
 {
