@@ -1,47 +1,66 @@
 // package org.example;
 
 import java.util.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Calculator 
 {
+    private static final Logger logger = LogManager.getLogger(Calculator.class);
 
     public static double Add(double n1, double n2)
     {
+        logger.info("Starting Add Operation");
         double res = n1 + n2;
+        logger.info("Ending Add Operation");
         return res;
     }
 
     public static double Multiply(double n1, double n2)
     {
+        logger.info("Starting Multiply Operation");
         double res = n1*n2;
+        logger.info("Ending Multiply Operation");
         return res;
     }
 
     public static int Factorial(int n1)
     {
+        logger.info("Starting Factorial Operation");
         if(n1 < 0)
+        {
+            logger.warn("Invalid Input");
             return -1;
+        }
 
         int res=1;
 
         for(int i=1;i<=n1;i++)
             res*=i;
-
+        
+        logger.info("Ending Factorial Operation");
         return res;
     }
 
     public static double Square_Root(double n1)
     {
+        logger.info("Starting SquareRoot Operation");
         if(n1 < 0)
+        {
+            logger.warn("Invalid Input");
             return -1;
+        }
 
         double res = Math.sqrt(n1);
+        logger.info("Ending SquareRoot Operation");
         return res;
     }
 
     
     public static void main(String[] args) 
-    {
+    {   
+        logger.info("Start of Execution");
+
         Scanner sc = new Scanner(System.in);
 
         System.out.println("-------- Welcome to Calculator Program - SPE ---------");
@@ -109,6 +128,8 @@ public class Calculator
         {
             System.out.println("Thanks for Using Calculator Program - BYE");
         }
+
+        logger.info("Exiting Calculator Program");
 
         sc.close();
 
