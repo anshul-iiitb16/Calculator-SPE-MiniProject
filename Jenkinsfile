@@ -1,9 +1,7 @@
 pipeline{
-    
     environment{
         DOCKERHUB_CRED = credentials("Dockerhub-Credentials-ID")
     }
-    
     agent any
     stages{
         stage("Stage 1 : Git Clone"){
@@ -20,7 +18,6 @@ pipeline{
         
         stage("Stage 3 : Build Docker Image"){
             steps{
-                
                 sh "docker build -t anshul1601/calculator:latest ."
             }
         }
@@ -34,9 +31,9 @@ pipeline{
         
         stage("Stage 5 : Clean Unwanted Docker Images"){
             steps{
-                sh "docker ps -a -q | xargs docker stop | xargs docker rm"
+                // sh "docker ps -a -q | xargs docker stop | xargs docker rm"
                 // sh "docker rm -f ${docker ps -a -q}"
-                // sh "docker container prune -f"
+                sh "docker container prune -f"
                 sh "docker image prune -a -f"
             }
         }
